@@ -30,18 +30,29 @@ To develop a domain-adapted, LLM-enhanced system that:
 clinical-hybrid-ner-rag-llm/ 
     ├── data/ 
         # Clinical notes and tabular datasets 
+    
     ├── src/ 
         # Main logic: NER, serialization, RAG, LLM 
+        
         │ ├── ner.py │ 
+        
         ├── serializer.py │ 
+        
         ├── rag.py │ 
+        
         ├── llm_inference.py 
+        
         │ └── utils.py 
+    
     ├── notebooks/ 
         # Experimentation and benchmarking 
+        
         │ └── experiments.ipynb 
+    
     ├── requirements.txt 
+    
     ├── README.md 
+    
     └── .gitignore
 ---
 

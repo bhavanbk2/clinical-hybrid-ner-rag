@@ -1,0 +1,10 @@
+pandas
+numpy
+transformers
+torch
+datasets
+faiss-cpu
+langchain
+openai
+spacy
+sentence-transformers
